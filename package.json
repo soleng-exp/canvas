@@ -1,0 +1,12 @@
+{
+  "name": "Canvas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:soleng-exp/canvas.git",
+  "author": "soleng <so.leng@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@code-dot-org/p5.play": "^1.2.1-cdo",
+    "p5": "^0.6.0"
+  }
+}

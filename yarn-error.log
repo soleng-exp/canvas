@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/lib/nodejs/bin/node /usr/lib/nodejs/bin/yarn add p5js
+
+PATH: 
+  /usr/lib/nodejs/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.9.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "Canvas",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:soleng-exp/canvas.git",
+    "author": "soleng <so.leng@outlook.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "p5js" on the "npm" registry.
+      at new MessageError (/usr/lib/nodejs/lib/node_modules/yarn/lib/cli.js:186:110)
+      at NpmResolver.<anonymous> (/usr/lib/nodejs/lib/node_modules/yarn/lib/cli.js:51625:15)
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/nodejs/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/lib/nodejs/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:118:7)
